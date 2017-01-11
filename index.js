@@ -3,6 +3,7 @@ var Elixir = require('laravel-elixir');
 var ngAnnotate = require('gulp-ng-annotate');
 var html2js = require('gulp-html2js');
 var jshint = require('gulp-jshint');
+var babel = require("gulp-babel");
 // var stylish = require('jshint-stylish');
 
 var Task = Elixir.Task;
